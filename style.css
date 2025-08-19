@@ -1,0 +1,22 @@
+body {
+	background: #fef6f7;
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+}
+
+div {
+	margin-left: 1em;
+}
+
+input {
+	display: inline-block;
+	border-radius: 1em;
+}
+
+button {
+	border-radius: 1em;
+	padding: 0.1em;
+	background: #cee7e8;
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+}
