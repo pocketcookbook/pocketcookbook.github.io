@@ -2,11 +2,42 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Outliner</title>
+        <title>Pocket Cookbook - Support</title>
         <link rel="stylesheet" href="style.css">
-        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
-        <h1>Loading...</h1>
+        <nav class="raised-border">
+            <a href="https://x.com/pocketcookbook"></a><i class="fa-brands fa-x-twitter"></i>
+            <h1 class="header">Pocket Cookbook</h1>
+            <h2 class="header">Any questions, concerns, or suggestions? Let us know!</h2>
+            <span class="text">Email: <a href="mailto:pocketcookbookapp@gmail.com">pocketcookbookapp@gmail.com</a></span>
+            <span class="icon-container">
+                <a href="https://x.com/pocketcookbook" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/pocketcookbookapp" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@pocketcookbookapp" class="icon"><i class="fa-brands fa-tiktok"></i></a>
+            </span>
+        </nav>
+
+        <nav class="form-container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="3ddeee71-c9cb-44bc-acbb-cbacc2a0339f">
+
+                <!-- Form Inputs. Each input must have a name="" attribute -->
+                <input class="text-input" type="text" placeholder="Name" name="name" required>
+                <input class="text-input" type="email" placeholder="Email" name="email" required>
+                <textarea class="text-input" placeholder="Message" name="message" required></textarea>
+
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <!-- Custom Confirmation / Success Page -->
+                <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+                <button class="submit-button" type="submit">Submit</button>
+            </form>
+        </nav>
     </body>
 </html>
